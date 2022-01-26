@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+.row {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px;
+}
+.login img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.login h1 {
+  font-family: "Baloo Bhaijaan 2", cursive;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.inp {
+  height: 50px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  -webkit-box-shadow: 7px 10px 29px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 29px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 10px 29px 3px rgba(0, 0, 0, 0.75);
+}
+.btn {
+  height: 50px;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  font-weight: 600;
+  background: brown;
+  color: cornsilk;
+}
+.btn:hover {
+  background: rgb(175, 75, 75);
+  color: white;
+}
+.fa-facebook {
+  font-size: 2.5rem;
+  color: blue;
+  cursor: pointer;
+}
+.fa-google-plus {
+  font-size: 2.5rem;
+  color: red;
+}
